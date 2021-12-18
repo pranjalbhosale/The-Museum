@@ -1,0 +1,124 @@
+*{
+    margin: 0px ;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body{ background-color: #070C10;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+/* blog */
+#blog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+     padding: 40px; 
+     /* border-bottom: 1px solid rgba(0,0,0,0.05);  */
+}
+.blog-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+    .blog-heading span{
+        color:#5D6D7E  ;
+    }
+
+    .blog-heading h3{
+        font-size: 4.0rem;
+        color:#85b6e7 ;
+        font-weight: 600;
+    }
+
+    .blog-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0px;
+        flex-wrap: wrap;}
+
+     
+      
+            
+    .blog-box{
+        padding-top: 22px;
+    width:350px;
+    background-color:#29292b ;
+    /* border:#e9ecee ; */
+    margin: 50px;
+    }
+
+    .blog-box :hover{
+     color: rgb(111, 134, 235) ;
+     transition: all ease 0.3s;} 
+        /* ---------------------------------------------- */
+        
+
+    .blog-img{
+
+        width: 100%;
+        height: 100%;
+
+
+    }
+    
+    .blog-img img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: calc();
+
+    }
+
+    .blog-text{
+        padding: 50px ;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .blog-text span{
+        color:#f0f4f8  ;
+        font-size: 0.9rem;
+    }
+    .blog-text .blog-title{
+        font-size: 1.3rem;
+        font-weight: 500;
+        color:#e8ecf1 ;
+    }
+
+    .blog-text .blog-title:hover{
+        color: rgb(233, 105, 54) ;
+        transition: all ease 0.3s;
+    }
+
+    .blog-text p{
+        color: #e8ebee ;
+        font-size: 0.9rem;
+        display: -webkit-box;
+          -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical; 
+        overflow: hidden;
+         text-overflow: ellipsis;  
+        margin: 20px 0px;
+    }
+
+    .blog-text a{
+        color: rgb(143, 93, 158);
+    }
+
+
+
+    .blog-text a:hover{
+        
+        color: rgb(233, 105, 54) ;
+        transition: all ease 0.3s;
+    }
